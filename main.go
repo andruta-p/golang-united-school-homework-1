@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
-	emojiSprintResult := emoji.Sprint("Hello :world_map:!")
-	fmt.Println(emojiSprintResult)
+	fmt.Println(CreateStringWithEmoji())
+}
+
+func CreateStringWithEmoji() string {
+	return emoji.Sprint("Hello :world_map:!")
 }
