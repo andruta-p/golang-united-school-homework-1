@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestMain(t *testing.T) {
+func TestCreateStringWithEmoji(t *testing.T) {
 	t.Log("Check output")
 	output := CreateStringWithEmoji()
 	if output != "Hello 🗺️ !" {
